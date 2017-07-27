@@ -13,5 +13,7 @@ interface Location { // but see also additional creation steps and overridden in
   [Unforgeable] void replace(USVString url);
   [Unforgeable] void reload();
 
+  attribute any _search;
+
   // [Unforgeable, SameObject] readonly attribute DOMStringList ancestorOrigins;
 };
