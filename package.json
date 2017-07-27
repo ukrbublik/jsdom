@@ -1,6 +1,6 @@
 {
-  "name": "jsdom",
-  "version": "11.1.0",
+  "name": "jsdom__no_cors",
+  "version": "11.1.1",
   "description": "A JavaScript implementation of many web standards",
   "keywords": [
     "dom",
@@ -29,7 +29,7 @@
     "nwmatcher": "^1.4.1",
     "parse5": "^3.0.2",
     "pn": "^1.0.0",
-    "request": "^2.79.0",
+    "request__no_405": "^2.81.2",
     "request-promise-native": "^1.0.3",
     "sax": "^1.2.1",
     "symbol-tree": "^3.2.1",

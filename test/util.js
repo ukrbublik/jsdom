@@ -5,7 +5,7 @@ const fs = require("fs");
 const http = require("http");
 const https = require("https");
 const enableDestroy = require("server-destroy");
-const request = require("request");
+const request = require("request__no_405");
 const jsdom = require("../lib/old-api.js");
 const Canvas = require("../lib/jsdom/utils").Canvas;
 

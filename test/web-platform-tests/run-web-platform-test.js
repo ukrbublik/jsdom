@@ -5,7 +5,7 @@ const { EventEmitter } = require("events");
 const dns = require("dns");
 const { specify } = require("mocha-sugar-free");
 const { inBrowserContext } = require("../util.js");
-const requestHead = q.denodeify(require("request").head);
+const requestHead = q.denodeify(require("request__no_405").head);
 const createJsdom = require("./create-jsdom.js");
 
 /* eslint-disable no-console */
